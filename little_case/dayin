@@ -1,0 +1,10 @@
+class Person:
+	x='adc'
+	def __init__(self,name,age,likebook):
+		self.name=name
+		self.age=age
+		self.likebook=likebook
+	def show(self):		
+		print(self.name+self.age+self.likebook)
+tom=Person("Tom","28","chinese")
+tom.show() 

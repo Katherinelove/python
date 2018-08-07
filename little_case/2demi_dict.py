@@ -1,0 +1,18 @@
+monday={"B":"milk","L":"shuai","D":"shui"}
+tuesday={"B":"milk","L":"shuai","D":"shui"}
+wednsday={"B":"milk","L":"shuai","D":"shui"}
+thursday={"B":"milk","L":"shuai","D":"shui"}
+friday={"B":"milk","L":"shuai","D":"shui"}
+saturday={"B":"milk","L":"shuai","D":"shui"}
+sunday={"B":"milk","L":"shuai","D":"shui"}
+specials={"M":monday,
+          "T":tuesday,
+          "W":wednsday,
+          "R":thursday,
+          "F":friday,
+          "St":saturday,
+          "Sn":sunday}
+print(specials)
+print(specials["M"])
+special=specials["M"]
+print(special["B"])
