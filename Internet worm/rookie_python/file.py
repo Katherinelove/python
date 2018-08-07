@@ -1,0 +1,12 @@
+import os
+current_dir=os.getcwd()
+print(os.listdir(current_dir))
+print(os.listdir("."))
+print(os.listdir("/语言/"))
+print(os.listdir("E:\地信项目"))
+print(os.listdir("E:\地信项目")[0])
+#os.makedirs("f:\katherinelove12")
+print(os.listdir("f:\\"))
+print("it'ok")
+print(os.stat('test.txt').st_size)
+print(os.stat('test.txt').st_atime)

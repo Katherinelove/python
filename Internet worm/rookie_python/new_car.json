@@ -1,0 +1,9 @@
+{
+     "doors": 4,
+     "feature": {
+          "stowaway": true
+     },
+     "color": "red",
+     "make": "ford",
+     "model": "explorer"
+}

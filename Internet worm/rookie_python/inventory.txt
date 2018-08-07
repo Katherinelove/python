@@ -1,0 +1,5 @@
+eggs	28
+apples	30
+pink	35
+milk	38
+binggan	65
